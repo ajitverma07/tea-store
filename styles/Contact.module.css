@@ -1,0 +1,63 @@
+.container {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desc {
+  font-size: 16px;
+  color: #444;
+  width: 70%;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    text-align: center;
+  }
+
+  .desc {
+    width: 90%;
+    text-align: center;
+  }
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.socialIcons a {
+  margin: 0 10px;
+  width: 50px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.socialIcons a:hover {
+  color: #007bff;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: space-between; /* or space-around based on your preference */
+  margin-top: 20px;
+}
+
+.imageContainer > div {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 10px; /* Add padding as needed */
+  margin-bottom: 20px; /* Add margin-bottom to create space between images */
+  /* Add any additional styling for images as needed */
+}
