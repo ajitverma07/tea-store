@@ -17,7 +17,7 @@ const Footer = () => {
           <h2 className={styles.motto}>
             The tea of the Sahara in Morocco is a cherished cultural tradition,
             deeply rooted in the daily lives of the desert communities. Known as
-            "Sahrawi tea" or "Tuareg tea,"
+            &quot;Sahrawi tea&quot; or &quot;Tuareg tea&quot;
           </h2>
         </div>
         <div className={styles.card}>
